@@ -1,10 +1,7 @@
-# My Version of KEYS.LOL made my Mizogg https://mizogg.co.uk
 from bit import *
 from bit.format import bytes_to_wif
 import random, codecs, sys, atexit, time, requests
 from rich.console import Console
-console = Console()
-console.clear()
 W  = '\033[0m'  # white (normal)
 R  = '\033[31m' # red
 G  = '\033[32m' # green
